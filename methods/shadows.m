@@ -8,7 +8,7 @@ function trainingImagesFinal = shadows(trainingImages)
         
         %% shadows 
         
-        xval = linspace(0,1,256); % every possible pixel intensity divided by 255
+        xval = linspace(0,1,227); % every column number normalized between 0 and 1
         
         direction = randi(2)-1; % 1: l->r, 0: r->l
         
